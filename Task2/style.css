@@ -1,0 +1,23 @@
+.progress{
+   padding: 10px;
+}
+p{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 34px;
+}
+
+.btn{
+    color:black;
+    background-color : white;
+    border-radius: 25px;
+  border: 2px solid black;
+}
+/* .btn-primary{
+    background-color:pink;
+} */
+/* .btn-lg{
+    back-groudcolor:pink;
+} */

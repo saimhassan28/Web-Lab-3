@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 Web Lab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container" style="align-items: center; padding: auto; width: 50em;">
+    <form method="post" action="task 4.html">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Company Name<abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+          <input type="text"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          <div id="emailHelp" class="form-text" style="color: red;">please enter your company name. This field is required.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Phone</label>
+          <input type="text" placeholder="123-456-7890" class="form-control" id="exampleInputPassword1" required minlength="11" maxlength="11">
+          <div id="emailHelp" class="form-text" style="color: red;">please enter a phone # like 123-456-7890. This field is required.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Website</label>
+            <input type="text" placeholder="https://" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text " style="color: red;" >please enter a valid URL. This field is required.</div>
+          </div>
+        <button style="background-color: grey;" type="submit" class="btn btn-primary" value="GO">Send Form</button>
+      </form>
+    </div>
+</body>
+</html>
